@@ -11,7 +11,7 @@ function Header() {
       <a href="#top" className="logo" aria-label="Tihaya — на главную">ТИХАЯ<span>●</span></a>
       <button className="menu" onClick={() => setOpen(!open)} aria-expanded={open} aria-label="Открыть меню"><i /><i /></button>
       <nav className={open ? 'open' : ''} onClick={() => setOpen(false)}>
-        <a href="#inside">Внутри</a><a href="#rhythm">Ритм</a><a href="#questions">Вопросы</a>
+        <a href="#inside">Внутренности</a><a href="#rhythm">Ритм</a><a href="#questions">Вопросы</a>
         <a className="pill dark" href="#choose">Выбрать баночку <Arrow /></a>
       </nav>
     </header>
